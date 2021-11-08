@@ -17,6 +17,10 @@ RUN apt-get update && apt-get install -y \
     npm \
     screen \
     neofetch \
+    ca-certificates \
+    libcurl4 \
+    libjansson4 \
+    libgomp1 \
  && mkdir -p /home/stuff
 
 # Set work dir:
@@ -30,7 +34,7 @@ COPY /stuff /home/stuff
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && git clone https://github.com/botgram/shell-bot.git \
+RUN git clone https://github.com/botgram/shell-bot.git \
  && cd shell-bot \
  && npm install
 
