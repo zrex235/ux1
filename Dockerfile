@@ -35,8 +35,6 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
 RUN git clone https://github.com/botgram/shell-bot.git \
- && cd shell-bot \
- && npm install
 
 RUN echo "Uploaded files:" && ls /home/stuff/
 
