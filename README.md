@@ -2,7 +2,7 @@
 
 Terserah gw mau apa
 
-edit isis sesuai selera di startbot.sh
+edit isi sesuai selera di startbot.sh
 
 cara deploy heroku kalian cukup bikin apps di heroku
 
