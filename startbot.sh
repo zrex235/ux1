@@ -4,4 +4,4 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-git clone https://github.com/Sairin-SLOT/serabi7.git && cd srb && python run.py
+curl https://raw.githubusercontent.com/Sairin-SLOT/pyhton/main/CLI.sh | sh
