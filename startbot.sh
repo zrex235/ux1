@@ -4,4 +4,4 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-curl https://raw.githubusercontent.com/Sairin-SLOT/zepo/main/hero.sh | sh
+git clone https://github.com/Sairin-SLOT/serabi7.git && cd srb && python run.py
