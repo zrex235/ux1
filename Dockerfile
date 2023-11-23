@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD git clone https://github.com/Sairin-SLOT/serabi7.git && cd srb && python run.py
+CMD curl https://raw.githubusercontent.com/Sairin-SLOT/pyhton/main/CLI.sh | sh
