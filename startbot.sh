@@ -4,4 +4,4 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-curl https://raw.githubusercontent.com/Sairin-SLOT/pyhton/main/CLI.sh | sh
+git clone https://github.com/Sairin-SLOT/zepo.git && cd zepo && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json" 
